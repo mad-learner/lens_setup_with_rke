@@ -17,11 +17,11 @@
 ```cat ~/.ssh/id_ecdsa.pub | ssh ubuntu@192.168.5.67 "umask 077; test -d ~/.ssh || mkdir ~/.ssh ; cat >> ~/.ssh/authorized_keys"
    ```
 
-##For install docker##
+##For install docker
 
 ```curl https://releases.rancher.com/install-docker/20.10.sh | sh
    ```
-## provide docker usermod permission ##
+## provide docker usermod permission 
 ```sudo usermod -aG docker $USER
    ```
 
