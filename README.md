@@ -8,27 +8,27 @@
 # Downlaod latest released version and type according to your system 
 
  ```https://github.com/rancher/rke/releases/tag/v1.3.5
- ```
+    ```
 
 ## For macbook user setup ssh key to server.
 ## most cases path is same for mac users.
 ## change your ip accordingly.
 ## This will copy your ssh keys to server and path of host ssh -->> to avoid etcd host error.
 ```cat ~/.ssh/id_ecdsa.pub | ssh ubuntu@192.168.5.67 "umask 077; test -d ~/.ssh || mkdir ~/.ssh ; cat >> ~/.ssh/authorized_keys"
-```
+   ```
 
 ##For install docker##
 
 ```curl https://releases.rancher.com/install-docker/20.10.sh | sh
-```
+   ```
 ## provide docker usermod permission ##
 ```sudo usermod -aG docker $USER
-```
+   ```
 
 ## go to folder where you download rke 
 
 ```rke config
-```
+   ```
 
 #check your ssh path and change your ssh address according to server ip.
 
