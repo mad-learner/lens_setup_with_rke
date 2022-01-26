@@ -3,7 +3,7 @@
 # Download rke from the below link.
 
  ```https://rancher.com/products/rke
- https://github.com/rancher/rke
+    https://github.com/rancher/rke
  ```
 # Downlaod latest released version and type according to your system 
 
