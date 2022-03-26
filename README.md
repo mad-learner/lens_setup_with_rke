@@ -7,7 +7,8 @@
   ```
 # Downlaod latest released version and type according to your system 
 
-```https://github.com/rancher/rke/releases/tag/v1.3.5
+``` 
+https://github.com/rancher/rke/releases/tag/v1.3.5
 ```
 
 ## For macbook user setup ssh key to server.
